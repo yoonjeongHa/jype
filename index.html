@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>JYP Entertinment</title>
+        <meta name="description" content="Loading Effects for Grid Items with CSS Animations" />
+		<meta name="keywords" content="css animation, loading effect, google plus, grid items, masonry" />
+        <link rel="stylesheet" type="text/css" href="css/fonts.css"/>
+        <link rel="stylesheet" type="text/css" href="css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="css/include.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        
+        <link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+        <script src="js/modernizr.custom.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="js/gnbActive.js"></script>
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script type="text/javascript">
+            alert('익스플로러 8 버전 이하의 환경에서 원활하게 보이지 않습니다.')
+        </script> 
+        <![endif]-->
+    </head>
+    <body>
+        <!--START-->
+        <div id="wrap">
+            <!--header S-->
+            <header id="header" class="inner">
+                <h1><a href="#0" onclick="fnMove('0')">logo</a></h1>
+                <!--gnb S-->
+                <ul class="gnb">
+                    <li onclick="fnMove('1')"><a href="#1">Musicians</a></li>
+                    <li onclick="fnMove('2')"><a href="#2">Actors</a></li>
+                    <li onclick="fnMove('3')"><a href="#3">Audition</a></li>
+                    <li onclick="fnMove('4')"><a href="#4">TimeLine</a></li>
+                </ul>
+                <!--gnb E-->
+                
+                <!--utill S-->
+                <ul class="utill">
+                    <li><img src="images/common/icoLang.png" alt="언어설정아이콘"/></li>
+                    <li><img src="images/common/iconSns01.png" alt="트위터아이콘"/></li>
+                    <li><img src="images/common/iconSns02.png" alt="페이스북아이콘"/></li>
+                    <li><img src="images/common/iconSns03.png" alt="유튜브아이콘"/></li>
+                </ul>
+                <!--utill E-->
+            </header>
+            <!--header E-->
+            
+            
+            <!--continer S-->
+            <div id="container">
+                <!--mainSlider S-->
+                <div class="mainSlider target scroll0" id="0">
+                    <!--mainSliderMedia-->
+                    <div class="mainSliderMedia">
+                        <img src="images/main/imgMainSlider01.png" alt="메인슬라이더1이미지">
+                    </div>
+                    <!--mainSliderText-->
+                    <div class="mainSliderText">
+                        <img src="images/main/textMainSlide01.png" alt="백예린타이틀이미지"/>
+                    </div>
+                </div>
+                
+                <div class="mainSliderPlaybar">
+                    
+                </div>
+                <!--mainSlider E-->
+                
+                <!--musicians S-->
+                <div class="target musicians scroll1" id="1">
+                    <div class="musiciansWrap inner">
+                        <h2>Musicians</h2>
+                        <div class="musiciansLogo"><img src="images/main/logoItzy.png" alt="있지로고"/></div>
+                        <p>너희가 원하는 거 전부 있지? 있지!</p>
+                        <div class="viewMore">
+                            자세히 보기
+                        </div>
+                        <div class="prevBtn">이전</div>
+                        <div class="nextBtn">다음</div>
+                    </div>
+                </div>
+                <!--musicians E-->
+                
+                <!--Actors S-->
+                <div class="target actors scroll2" id="2">
+                    <div class="actorsWrap inner">
+                        <h2>Actors</h2>
+                        
+                        <!--actorsListBtn-->
+                        <div class="prevBtn">이전</div>
+                        <div class="nextBtn">다음</div>
+                        
+                        <!--actorsList S-->
+                        <div class="actorsList">
+                            <ul class="cf">
+                                <li class="actor01">
+                                   <a herf="#">
+                                       <p>강윤제<span>Kang, Yoon Je</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor02">
+                                   <a herf="#">
+                                       <p>강훈<span>Kang, Hoon</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor03">
+                                   <a herf="#">
+                                       <p>김동희<span>Kim, Dong Hee</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor04">
+                                   <a herf="#">
+                                       <p>김유안<span>Kim, Yu An</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor05">
+                                   <a herf="#">
+                                       <p>김지민<span>Kim, Ji Min</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor06">
+                                   <a herf="#">
+                                       <p>남성준<span>Nam, Sung Jun</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor07">
+                                   <a herf="#">
+                                       <p>류원<span>Ryu, Won</span></p>
+                                   </a>
+                                </li>
+
+                                <li class="actor08">
+                                   <a herf="#">
+                                       <p>박규영<span>Park, Gyu Young</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor09">
+                                   <a herf="#">
+                                       <p>박시은<span>Park, Si Eun</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor10">
+                                   <a herf="#">
+                                       <p>박주형<span>Park, Joo Hyung</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor11">
+                                   <a herf="#">
+                                       <p>신예은<span>Shin, Ye Eun</span></p>
+                                   </a>
+                                </li>
+                                <li class="actor12">
+                                   <a herf="#">
+                                       <p>신은수<span>Shin, Eun Soo</span></p>
+                                   </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--actorsList S-->
+                    </div>
+                </div>
+                <!--Actors E-->
+                
+                <!--audition S-->
+                <div class="target audition scroll3 inner" id="3">
+                        <h2>Audition</h2>
+                    <div class="inner">
+                        <img src="images/main/bgAudition.png" class="micBg" alt="마이크이미지"/>
+                        <p>원더걸스, 2PM, 2AM, miss A, GOT7등 최고의 아티스트를 배출한<span><span class="blueText">JYP Entertainment</span>에서 차세대 스타를 찾고 있습니다.</span><span>관심있는 분들의 많은 참여 바랍니다.</span></p>
+                        
+                        <div class="viewMore">
+                            오디션 지원하기
+                        </div>
+                        
+                        <!--auditionList S-->
+                        <h3>지원분야 <span>및</span> 오디션 심사 기준</h3>
+                        <ul>
+                            <li>
+                                <img src="images/main/iconVocal.png" alt="보컬아이콘"/>
+                                <h4>보컬</h4>
+                                <p>호흡, 음정, 박자,<span>발음을 기본기로 한</span>가창력 및 테크닉</p>
+                            </li>
+                            <li>
+                                <img src="images/main/iconDance.png" alt="댄스아이콘"/>
+                                <h4>보컬</h4>
+                                <p>유연성, 리듬감과<span>안무의 정확성 및</span>자신감 있는 무대매너</p>
+                            </li>
+                            <li>
+                                <img src="images/main/iconActor.png" alt="연기아이콘"/>
+                                <h4>연기</h4>
+                                <p>발성, 호흡, 감정과<span>대사 전달력 및</span>무대 매너</p>
+                            </li>
+                            <li>
+                                <img src="images/main/iconModel.png" alt="모델아이콘"/>
+                                <h4>보컬</h4>
+                                <p>자신감 있는<span>스타일 연출과</span><span>개성 있는 포즈</span></p>
+                            </li>
+                            <li>
+                                <img src="images/main/iconMcVj.png" alt="MCVJ아이콘"/>
+                                <h4>보컬</h4>
+                                <p>정확한 의사소통,<span>개성 있는 표현력</span></p>
+                            </li>
+                        </ul>
+                        <!--auditionList E-->
+                    </div>
+                </div>
+                <!--audition E-->
+                
+                <!--timeline S-->
+                <div class="target timeline scroll4 inner" id="4">
+                    <h2>TimeLine</h2>
+                    <!--masonry-->
+                    <div id="js-load" class="main">
+                        <ul class="lists grid effect-2" id="grid">
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline01.png" alt="신예은아티클"/>
+                                <div class="timelineText">
+                                    <h3>‘사이코메트리 그녀석’ 신예은,러블리 vs 카리스마 오가는 반전미</h3>
+                                    <p>tvN 월화드라마 ‘사이코메트리 그녀석’에서 주인공 윤재인 역으로 열연 중인 신예은은 매회 매력 넘치는 연기로 화제를 모으고 있다.</p>
+                                    <p class="date">2019. 04. 04</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline02.png" alt="있지유튜브ep16"/>
+                                <div class="timelineText">
+                                    <h3>[ITZY? ITZY!(있지?있지!)]<br>EP16. 채령이 있지!</h3>
+                                    <p>채령이의 셀프캠이 있지!<br>춤꾼 채령이, 의외의 취미 공개과 최근 있었던 일을 셀프캠으로 공개!</p>
+                                    <p class="date">2019. 04. 03</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline03.png" alt="스트레이키즈하이스테이티켓오픈"/>
+                                <div class="timelineText">
+                                    <h3>Stray Kids(스트레이 키즈) 'HI-STAY TOUR FINALE IN SEOUL' 티켓 오픈</h3>
+                                    <p>Stray Kids(스트레이 키즈) 'HI-STAY TOUR FINALE IN SEOUL' 티켓 오픈 안내드립니다.</p>
+                                    <p class="date">2019. 04. 02</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline04.png" alt="윤박아티클"/>
+                                <div class="timelineText">
+                                    <h3>윤박, 매력 터지는 강 변호사의<br>‘리갈하이’ 촬영장!</h3>
+                                    <p>JTBC &lt;리갈하이&gt; 촬영장에서 '강기석 변호사'로 활약 중인 배우 '윤박'을 만나봤다.</p>
+                                    <p class="date">2019. 03. 15</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline01.png" alt="신예은아티클"/>
+                                <div class="timelineText">
+                                    <h3>‘사이코메트리 그녀석’ 신예은,러블리 vs 카리스마 오가는 반전미</h3>
+                                    <p>tvN 월화드라마 ‘사이코메트리 그녀석’에서 주인공 윤재인 역으로 열연 중인 신예은은 매회 매력 넘치는 연기로 화제를 모으고 있다.</p>
+                                    <p class="date">2019. 04. 04</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline02.png" alt="있지유튜브ep16"/>
+                                <div class="timelineText">
+                                    <h3>[ITZY? ITZY!(있지?있지!)]<br>EP16. 채령이 있지!</h3>
+                                    <p>채령이의 셀프캠이 있지!<br>춤꾼 채령이, 의외의 취미 공개과 최근 있었던 일을 셀프캠으로 공개!</p>
+                                    <p class="date">2019. 04. 03</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline03.png" alt="스트레이키즈하이스테이티켓오픈"/>
+                                <div class="timelineText">
+                                    <h3>Stray Kids(스트레이 키즈) 'HI-STAY TOUR FINALE IN SEOUL' 티켓 오픈</h3>
+                                    <p>Stray Kids(스트레이 키즈) 'HI-STAY TOUR FINALE IN SEOUL' 티켓 오픈 안내드립니다.</p>
+                                    <p class="date">2019. 04. 02</p>
+                                </div>
+                            
+                        </li>
+                            <li class="grid-item">
+                            
+                                <img src="images/main/thumbTimline04.png" alt="윤박아티클"/>
+                                <div class="timelineText">
+                                    <h3>윤박, 매력 터지는 강 변호사의<br>‘리갈하이’ 촬영장!</h3>
+                                    <p>JTBC &lt;리갈하이&gt; 촬영장에서 '강기석 변호사'로 활약 중인 배우 '윤박'을 만나봤다.</p>
+                                    <p class="date">2019. 03. 15</p>
+                                </div>
+                            
+                        </li>
+                        </ul>
+                        <div id="js-btn-wrap" class="btn-wrap">
+                        <a href="javascript:;" class="button">더보기<img src="images/main/btnViewMorePlus.png" alt="더보기플러스버튼"/></a></div>
+                    </div>
+                </div>
+                <!--masonry Scripy-->
+                <script src="js/masonry.pkgd.min.js"></script>
+                <script src="js/imagesloaded.js"></script>
+                <script src="js/classie.js"></script>
+                <script src="js/AnimOnScroll.js"></script>
+                <script>
+                    new AnimOnScroll( document.getElementById( 'grid' ), {
+                        minDuration : 0.4,
+                        maxDuration : 0.7,
+                        viewportFactor : 0.2
+                    } );
+                </script>
+               
+                
+                <!--timeline E-->
+            </div>
+            <!--continer E-->
+            
+            <!--footer S-->
+            <footer id="footer">
+                <!--footerLeft S-->
+                <div class="footerWrap inner">
+                <ul class="footerInfo">
+                    <li>개인정보처리방침</li> 
+                    <li>내부정보관리규정</li> 
+                    <li>SITE MAP</li> 
+                    <li>
+                       <select name="familySite">
+                           <option>FAMILY SITE</option>
+                           <option>JYP Fan's</option>
+                           <option>JYP Stores</option>
+                       </select>
+                    </li> 
+                </ul>
+                <p>서울특별시 강동구 강동대로 205 (서울특별시 강동구 성내동 448-13)<span>JYP Center, (205, Gangdongdae-ro Gangdong-gu, Seoul South Korea)</span><span>대표전화 02-2225-8100</span></p>
+                <p class="copyright">2011 COPYRIGHT &copy; <span>JYP</span> CORP. ALL RIGHT RESERVED</p>
+                <!--footerLeft S-->
+                
+                <!--footerRight S-->
+                <div class="footerRight">
+                    <h3>회사소개</h3>
+                    <h3>오디션</h3>
+                    
+                </div>
+                <!--footerRight E-->
+                </div>
+            </footer>
+            <!--footer E-->
+        </div>
+        <!--END-->
+    </body>
+</html>

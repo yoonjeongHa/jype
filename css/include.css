@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*header S*/
+#header{
+    height: 110px;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -600px;
+    z-index: 1;
+}
+#header h1{
+    width: 160px;
+    height: 59px;
+    display: inline-block;
+    background: url(../images/common/logoHeader.png) no-repeat;
+    text-indent: -9999px;
+}
+#header h1 a{
+    display: block;
+    height: 100%;
+}
+
+/*gnb S*/
+.gnb{
+    display: inline-block;
+}
+.gnb .active{
+    border-bottom: 3px solid #009bdf;
+}
+.gnb li{
+    display: inline-block;
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 110px;
+}
+.gnb li a{
+}
+/*gnb E*/
+
+/*utill S*/
+.utill{
+    position: absolute;
+    right: 0;
+    top: 45px;
+}
+.utill li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.utill a{}
+/*utill E*/
+/*header E*/
+
+
+/*footer S*/
+#footer{
+    background: #eee;
+    color: #333;
+    margin-top: 70px;
+}
+#footer a{
+    color: #333;
+}
+.footerWrap{
+    padding: 70px 0;
+    position: relative;
+}
+/*footerLeft S*/
+.footerInfo{
+    font-size: 0;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+.footerInfo li{
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+}
+.footerInfo li:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background: #666;
+    margin: 0 5px;
+}
+.footerInfo li:last-child:after{
+    display: none;
+}
+.footerInfo a{}
+.footerInfo select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff url(../images/common/btnFamilySite_09.png) no-repeat 95% center;
+    padding: 3px;
+    width: 120px;
+}
+#footer p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#footer p span{
+    display: block;
+}
+.copyright{
+    margin-top: 15px;
+}
+#footer .copyright span{
+    display: inline-block;
+    color: #009bdf;
+}
+/*footerLeft E*/
+
+/*footerRight S*/
+.footerRight{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 70px;
+    text-align: right;
+}
+.footerRight h3{
+    font-size: 26px;
+    font-weight: 600;
+}
+.footerSNS{
+    margin-top: 30px;
+}
+.footerSNS li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.footerSNS a{}
+/*footerRight E*/
+/*footer E*/
