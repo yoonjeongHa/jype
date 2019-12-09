@@ -22,6 +22,7 @@ function fnMove(seq){
         },400);
 }
 
+/*
 $(window).on('load', function () {
     load('#js-load', '4');
     $("#js-btn-wrap .button").on("click", function () {
@@ -41,3 +42,5 @@ function load(id, cnt, btn) {
     }
     $(girls_list + ":lt(" + girls_total_cnt + ")").addClass("active");
 }
+
+*/
